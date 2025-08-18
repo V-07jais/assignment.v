@@ -1,5 +1,6 @@
-rows = 5
-for i in range(1, rows + 1):
-    for j in range(1, i + 1):
-        print(j, end=' ')
-    print('')
+n =5 
+while n>0:
+    if n == 3: 
+        break
+    print(n)
+    n = n-1 
